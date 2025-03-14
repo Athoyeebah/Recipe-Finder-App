@@ -6,4 +6,45 @@
     color: #393e46;
     padding: 30px;
     box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+
+}
+/* For large desktop screens */
+@media (min-width: 1200px) {
+  .nav {
+    font-size: 2.5em;
+    padding: 40px;
+  }
+}
+
+/* For medium desktop screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav {
+    font-size: 2.2em;
+    padding: 30px;
+  }
+}
+
+/* For small desktop screens and large tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav {
+    font-size: 1.8em;
+    padding: 20px;
+  }
+}
+
+/* For tablets and small desktop screens */
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 575px) {
+  .nav {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
 }

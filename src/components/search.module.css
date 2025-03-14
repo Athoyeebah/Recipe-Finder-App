@@ -11,4 +11,44 @@
     outline: none;
     font-size: 16px;
     color: #393e46;
+
     }
+
+    
+/* Media Queries for Search */
+
+/* For large desktop screens */
+@media (min-width: 1200px) {
+  .searchContainer {
+    width: 400px;
+  }
+}
+
+/* For medium desktop screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .searchContainer {
+    width: 350px;
+  }
+}
+
+/* For small desktop screens and large tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .searchContainer {
+    width: 300px;
+  }
+}
+
+/* For tablets and small desktop screens */
+@media (min-width: 576px) and (max-width: 767px) {
+  .searchContainer {
+    width: 250px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 575px) {
+  .searchContainer {
+    width: 200px;
+  }
+}
+
